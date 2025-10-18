@@ -1,0 +1,40 @@
+launch_cadence_xrun.sh -top cache_cell and2.vhd Dlatch.vhd Dlatch32.vhd inverter.vhd tx.vhd tx32.vhd cache_cell.vhd
+
+launch_cadence_xrun.sh -v93 -top tb_cache_cell and2.vhd Dlatch.vhd Dlatch32.vhd inverter.vhd tx.vhd tx32.vhd cache_cell.vhd tb_cache_cell.vhd -R -gui -access -rw
+
+
+launch_cadence_xrun.sh  -gui -access +rwc -top tb_Dlatch8 Dlatch.vhd Dlatch8.vhd tb_Dlatch8.vhd 
+
+cd cadence_setup/project_vlsi/vhdl_files/cache_cell/
+
+ 
+rm -rf ./cache
+rm -rf ./mozilla
+
+launch_cadence_xrun.sh -access +rwc -R -input ncsim.run -top tb_Dlatch8 Dlatch.vhd Dlatch8.vhd tb_Dlatch8.vhd
+
+launch_cadence_xrun.sh -access +rwc -input run_wave.tcl -top tb_Dlatch8 Dlatch.vhd Dlatch8.vhd tb_Dlatch8.vhd
+
+launch_cadence_xrun.sh  -top tb_Dlatch8 Dlatch.vhd Dlatch8.vhd tb_Dlatch8.vhd -gui -access rwc
+
+rm -rf xcelium.d waves dbsim.dir
+
+launch_cadence_xrun.sh -top cache_cell_8_bits and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell.vhd
+
+
+
+1.Connect to the VPN 
+2.Open up WSL 
+3 ssh -X tislam3@ite375pc22.cs.umbc.edu 
+
+launch_cadence_xrun.sh -top cache_cell_8bits and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell_8bits.vhd
+
+launch_cadence_xrun.sh -top cache_cell_8bits and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell_8bits.vhd -R -gui -access -rw -input waves.tcl
+
+launch_cadence_xrun.sh -top tb_cache_cell_8bits_print and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell_8bits.vhd tb_cache_cell_8bits_print.vhd -R -access -rw 
+
+launch_cadence_xrun.sh -v93 -top tb_cache_cell_8bits_print and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell_8bits.vhd tb_cache_cell_8bits_print.vhd
+
+# GUI code that works
+launch_cadence_xrun.sh -top tb_cache_cell_8bits_print and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell_8bits.vhd tb_cache_cell_8bits_print.vhd -gui -access rwc
+

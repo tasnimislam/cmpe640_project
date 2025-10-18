@@ -1,0 +1,50 @@
+s1(17Oct2025:11:12:14):  xrun -top tb_cache_cell_8bits_print and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell_8bits.vhd tb_cache_cell_8bits_print.vhd 
+s2(17Oct2025:11:12:51):  xrun -top tb_cache_cell_8bits_print and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell_8bits.vhd tb_cache_cell_8bits_print.vhd 
+s3(17Oct2025:11:14:25):  xrun -top tb_cache_cell_8bits_print and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell_8bits.vhd tb_cache_cell_8bits_print.vhd 
+s4(17Oct2025:11:14:39):  xrun -top tb_cache_cell_8bits_print and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell_8bits.vhd tb_cache_cell_8bits_print.vhd 
+s5(17Oct2025:11:15:13):  xrun -v93 -top tb_cache_cell_8bits_print and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell_8bits.vhd tb_cache_cell_8bits_print.vhd 
+s6(17Oct2025:11:16:35):  xrun -v93 -top tb_cache_cell_8bits_print and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell_8bits.vhd tb_cache_cell_8bits_print.vhd 
+s7(17Oct2025:11:52:44):  /umbc/software/cadence/installs/XCELIUM2309/tools.lnx86/bin/64bit/xrun -vhdl08 -gui tb_cache_cell_8bits_print.vhd cache_cell_8bits.vhd 
+s8(17Oct2025:11:54:53):  xrun -v93 -top tb_cache_cell_8bits_print and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell_8bits.vhd tb_cache_cell_8bits_print.vhd 
+s9(17Oct2025:12:05:43):  xrun -top tb_cache_cell_8bits_print and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell_8bits.vhd tb_cache_cell_8bits_print.vhd -gui -access rwc 
+s10(17Oct2025:17:22:05):  xrun -top cache_line and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell.vhd cache_cell_8bits.vhd cache_line.vhd 
+s11(17Oct2025:17:22:57):  xrun -top cache_line and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell.vhd cache_cell_8bits.vhd cache_line.vhd 
+s12(17Oct2025:17:23:19):  xrun -top cache_line and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell.vhd cache_cell_8bits.vhd cache_line.vhd 
+s13(17Oct2025:17:25:09):  xrun -top cache_line and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell.vhd cache_cell_8bits.vhd cache_line.vhd 
+s14(17Oct2025:17:26:36):  xrun -top cache_line and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell.vhd cache_cell_8bits.vhd cache_line.vhd 
+s15(17Oct2025:17:29:37):  xrun -top cache_line and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell.vhd cache_cell_8bits.vhd cache_line.vhd 
+s16(17Oct2025:17:30:02):  xrun -top cache_line and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell.vhd cache_cell_8bits.vhd cache_line.vhd 
+s17(17Oct2025:17:34:25):  xrun -top cache_line and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell.vhd cache_cell_8bits.vhd cache_line.vhd 
+s18(17Oct2025:17:49:48):  xrun -top tb_cache_line and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell.vhd cache_cell_8bits.vhd cache_line.vhd tb_cache_line.vhd 
+s19(17Oct2025:17:51:24):  xrun -v93 -top tb_cache_line and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell.vhd cache_cell_8bits.vhd cache_line.vhd tb_cache_line.vhd 
+s20(17Oct2025:17:53:23):  xrun -v93 -top tb_cache_line and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell.vhd cache_cell_8bits.vhd cache_line.vhd tb_cache_line_v2.vhd 
+s21(17Oct2025:17:56:14):  xrun -top tb_cache_line and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell.vhd cache_cell_8bits.vhd cache_line.vhd tb_cache_line_v2.vhd 
+s22(17Oct2025:18:02:32):  xrun -top tb_cache_line and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell.vhd cache_cell_8bits.vhd cache_line.vhd tb_cache_line_v3.vhd 
+s23(17Oct2025:18:02:46):  xrun -v93 -top tb_cache_line and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell.vhd cache_cell_8bits.vhd cache_line.vhd tb_cache_line_v3.vhd 
+s24(17Oct2025:18:04:05):  xrun -v93 -top tb_cache_line and2.vhd Dlatch.vhd Dlatch8.vhd inverter.vhd tx.vhd tx8.vhd cache_cell.vhd cache_cell_8bits.vhd cache_line.vhd tb_cache_line_v4.vhd 
+s25(17Oct2025:18:38:06):  xrun -top mux2to1 or2.vhd and2.vhd inverter,vhd mux2to1.vhd 
+s26(17Oct2025:18:38:15):  xrun -top mux2to1 or2.vhd and2.vhd inverter.vhd mux2to1.vhd 
+s27(17Oct2025:18:41:11):  xrun -top mux4to1 or2.vhd and2.vhd inverter.vhd mux2to1.vhd mux4to1.vhd 
+s28(17Oct2025:18:41:43):  xrun -top mux4to1 or2.vhd and2.vhd inverter.vhd mux2to1.vhd mux4to1.vhd 
+s29(17Oct2025:18:45:19):  xrun -v93 -top tb_mux4to1 or2.vhd and2.vhd inverter.vhd mux2to1.vhd mux4to1.vhd tb_mux4to1.vhd 
+s30(17Oct2025:18:45:55):  xrun -top tb_mux4to1 or2.vhd and2.vhd inverter.vhd mux2to1.vhd mux4to1.vhd 
+s31(17Oct2025:18:46:13):  xrun -top tb_mux4to1 or2.vhd and2.vhd inverter.vhd mux2to1.vhd mux4to1.vhd tb_mux4to1.vhd 
+s32(17Oct2025:18:46:28):  xrun -v93 -top tb_mux4to1 or2.vhd and2.vhd inverter.vhd mux2to1.vhd mux4to1.vhd tb_mux4to1.vhd 
+s33(17Oct2025:18:49:48):  xrun -v93 -top tb_mux2to1 or2.vhd and2.vhd inverter.vhd mux2to1.vhd tb_mux2to1.vhd 
+s34(17Oct2025:18:50:00):  xrun -v93 -top tb_mux2to1 or2.vhd and2.vhd inverter.vhd mux2to1.vhd tb_mux2to1.vhd 
+s35(17Oct2025:18:51:30):  xrun -v93 -top tb_mux2to1 or2.vhd and2.vhd inverter.vhd mux2to1.vhd tb_mux2to1.vhd 
+s36(17Oct2025:18:56:09):  xrun -v93 -top tb_mux2to1 or2.vhd and2.vhd inverter.vhd mux2to1.vhd tb_mux2to1.vhd 
+s37(17Oct2025:19:09:49):  xrun -v93 -top tb_mux2to1 or2.vhd and2.vhd inverter.vhd mux2to1.vhd tb_mux2to1_v2.vhd 
+s38(17Oct2025:19:13:52):  xrun -top mux2to1 or2.vhd and2.vhd mux2to1.vhd 
+s39(17Oct2025:19:14:39):  xrun -top mux2to1 or2.vhd and2.vhd mux2to1.vhd 
+s40(17Oct2025:19:16:44):  xrun -v93 -top tb_mux2to1 or2.vhd and2.vhd mux2to1.vhd tb_max2to1.vhd 
+s41(17Oct2025:19:16:54):  xrun -v93 -top tb_mux2to1 or2.vhd and2.vhd mux2to1.vhd tb_max2to1_v3.vhd 
+s42(17Oct2025:19:17:09):  xrun -v93 -top tb_mux2to1 or2.vhd and2.vhd mux2to1.vhd tb_max2to1_v3.vhd 
+s43(17Oct2025:19:18:00):  xrun -v93 -top tb_mux2to1 or2.vhd and2.vhd mux2to1.vhd tb_mux2to1_v3.vhd 
+s44(17Oct2025:19:22:27):  xrun -v93 -top and2.vhd or2.vhd mux2to1.vhd 
+s45(17Oct2025:19:22:56):  xrun -v93 -top tb_mux2to_1 and2.vhd or2.vhd mux2to1.vhd tb_mux2to1_v4.vhd 
+s46(17Oct2025:19:23:07):  xrun -v93 -top tb_mux2to1 and2.vhd or2.vhd mux2to1.vhd tb_mux2to1_v4.vhd 
+s47(17Oct2025:19:25:20):  xrun -v93 -top tb_mux2to1 and2.vhd or2.vhd mux2to1.vhd tb_mux2to1_v5.vhd 
+s48(17Oct2025:19:27:19):  xrun -v93 -top tb_mux2to1 and2.vhd or2.vhd mux2to1.vhd tb_mux2to1_v6.vhd 
+s49(17Oct2025:19:28:57):  xrun -v93 -top tb_mux2to1 and2.vhd or2.vhd mux2to1.vhd tb_mux2to1_v7.vhd 
+s50(17Oct2025:19:29:52):  xrun -v93 -top tb_mux2to1 and2.vhd or2.vhd mux2to1.vhd tb_mux2to1_v8.vhd 

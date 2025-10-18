@@ -1,0 +1,44 @@
+xrun(64): 23.09-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	23.09-s013: Started on Oct 17, 2025 at 19:29:52 EDT
+xrun
+	-v93
+	-top tb_mux2to1
+	and2.vhd
+	or2.vhd
+	mux2to1.vhd
+	tb_mux2to1_v8.vhd
+tb_mux2to1_v8.vhd:
+	errors: 0, warnings: 0
+WORKLIB.TB_MUX2TO1 (entity):
+	streams: 1, words: 63
+WORKLIB.TB_MUX2TO1:SIM (architecture):
+	streams: 2, words: 623
+xmelab: *W,ARCMRA: Elaborating the WORKLIB.TB_MUX2TO1:SIM, MRA (most recently analyzed) architecture.
+	Elaborating the design hierarchy:
+	Top level design units:
+		:tb_mux2to1(sim):
+	Building instance specific data structures.
+	Design hierarchy summary:
+		           Instances  Unique
+		Components:        6       4
+		Default bindings:  0       1
+		Processes:         4       3
+		Signals:           8       8
+	Writing initial simulation snapshot: WORKLIB.TB_MUX2TO1:SIM
+Loading snapshot worklib.tb_mux2to1:sim .................... Done
+xcelium> run
+REPORT/NOTE (time 0 FS) from process :stim (architecture worklib.tb_mux2to1:sim)
+=== TB START (printing D0, D1, S0, S1, Y) ===
+REPORT/NOTE (time 20 NS) from process :stim (architecture worklib.tb_mux2to1:sim)
+D0='0'  D1='1'  S0='0'  S1='0'  --> Y='0'
+REPORT/NOTE (time 40 NS) from process :stim (architecture worklib.tb_mux2to1:sim)
+D0='0'  D1='1'  S0='1'  S1='0'  --> Y='0'
+REPORT/NOTE (time 60 NS) from process :stim (architecture worklib.tb_mux2to1:sim)
+D0='0'  D1='1'  S0='0'  S1='1'  --> Y='1'
+REPORT/NOTE (time 80 NS) from process :stim (architecture worklib.tb_mux2to1:sim)
+D0='0'  D1='1'  S0='1'  S1='1'  --> Y='1'
+REPORT/NOTE (time 80 NS) from process :stim (architecture worklib.tb_mux2to1:sim)
+=== TB DONE ===
+xmsim: *W,RNQUIE: Simulation is complete.
+xcelium> exit
+TOOL:	xrun(64)	23.09-s013: Exiting on Oct 17, 2025 at 19:29:53 EDT  (total: 00:00:01)

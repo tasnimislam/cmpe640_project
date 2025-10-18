@@ -1,0 +1,7 @@
+database -open waves -shm
+probe -create -all -depth all
+run 200ns
+exit
+
+
+
