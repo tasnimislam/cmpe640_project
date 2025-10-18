@@ -1,0 +1,1 @@
+launch_cadence_xrun.sh -top fsm_behavioral inverter.vhd and2.vhd and3.vhd fsm_behavioral.vhd
